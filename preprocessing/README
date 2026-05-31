@@ -2,7 +2,7 @@ Included scripts were run in a fiqat python venv.
 
 Rough script commands from my use:
 Extracting bbox coords:
-(fiqat_venv) margrethe@hallvard-01:/margrethe/OFIQ-Project/python/bbox_and_face_crop$ python extractBoundingBoxes.py --input /margrethe/images/custom/ --output_csv bbox_custom.csv
+(fiqat_venv) m@ubuntu:/m/OFIQ-Project/python/bbox_and_face_crop$ python extractBoundingBoxes.py --input /m/images/custom/ --output_csv bbox_custom.csv
 
 Cropping using bbox coords above:
-(fiqat_venv) margrethe@hallvard-01:/margrethe/OFIQ-Project/python/bbox_and_face_crop$ python3 preprocess_CropFaces.py --csv bbox_custom.csv --input-root /margrethe/images/ --output-dir /margrethe/preprocessed_images/minimal_preprocess_crop --margin 0.20 --top-extra 0.15 --square --resize 518 --report-csv crop_report_CUSTOM.csv
+(fiqat_venv) m@ubuntu:/m/OFIQ-Project/python/bbox_and_face_crop$ python3 preprocess_CropFaces.py --csv bbox_custom.csv --input-root /m/images/ --output-dir /m/preprocessed_images/minimal_preprocess_crop --margin 0.20 --top-extra 0.15 --square --resize 518 --report-csv crop_report_CUSTOM.csv
